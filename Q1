@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+    
+        int[] number = {50,60,40,10,38,65,87,56,90,100,66,80,88,40,98};
+        for (int n:number) {
+        if (n >= 90 && n <= 100) {
+            System.out.println(n +"A");
+        } else if (n >= 80 && n <= 89) {
+            System.out.println(n + "B");
+        } else if (n >= 70 && n <= 79) {
+            System.out.println(n + "c");
+        } else if (n >= 60 && n <= 69) {
+            System.out.println(n + "d");
+        }else {
+            System.out.println(n + "fail");
+        }
