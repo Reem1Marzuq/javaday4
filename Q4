@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+    
+        Scanner R = new Scanner(System.in);
+        int[] numbre = {1, 10, 15, 20, 30, 45, 55, 60, 70, 80, 95, 100};
+        System.out.println("Enter your number");
+        int check = R.nextInt();
+        for (int n:numbre){
+            if (n == check) {
+                System.out.println("The number is " + n);
+               break;
+           }
